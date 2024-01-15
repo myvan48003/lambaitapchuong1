@@ -1,0 +1,14 @@
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/bin/Debug/net8.0/BaiTapChuong1
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/bin/Debug/net8.0/BaiTapChuong1.deps.json
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/bin/Debug/net8.0/BaiTapChuong1.runtimeconfig.json
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/bin/Debug/net8.0/BaiTapChuong1.dll
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/bin/Debug/net8.0/BaiTapChuong1.pdb
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/obj/Debug/net8.0/BaiTapChuong1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/obj/Debug/net8.0/BaiTapChuong1.AssemblyInfoInputs.cache
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/obj/Debug/net8.0/BaiTapChuong1.AssemblyInfo.cs
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/obj/Debug/net8.0/BaiTapChuong1.csproj.CoreCompileInputs.cache
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/obj/Debug/net8.0/BaiTapChuong1.dll
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/obj/Debug/net8.0/refint/BaiTapChuong1.dll
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/obj/Debug/net8.0/BaiTapChuong1.pdb
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/obj/Debug/net8.0/BaiTapChuong1.genruntimeconfig.cache
+/Users/myvan/lambaitapchuong1/BaiTapChuong1/obj/Debug/net8.0/ref/BaiTapChuong1.dll
