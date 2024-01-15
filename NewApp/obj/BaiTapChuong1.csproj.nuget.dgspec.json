@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/myvan/lambaitapchuong1/BaiTapChuong1/BaiTapChuong1.csproj": {}
+    "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/NewApp/BaiTapChuong1.csproj": {}
   },
   "projects": {
-    "/Users/myvan/lambaitapchuong1/BaiTapChuong1/BaiTapChuong1.csproj": {
+    "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/NewApp/BaiTapChuong1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/myvan/lambaitapchuong1/BaiTapChuong1/BaiTapChuong1.csproj",
+        "projectUniqueName": "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/NewApp/BaiTapChuong1.csproj",
         "projectName": "BaiTapChuong1",
-        "projectPath": "/Users/myvan/lambaitapchuong1/BaiTapChuong1/BaiTapChuong1.csproj",
+        "projectPath": "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/NewApp/BaiTapChuong1.csproj",
         "packagesPath": "/Users/myvan/.nuget/packages/",
-        "outputPath": "/Users/myvan/lambaitapchuong1/BaiTapChuong1/obj/",
+        "outputPath": "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/NewApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/myvan/.nuget/NuGet/NuGet.Config"
