@@ -12,7 +12,8 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
+    
+    [HttpGet]
     public IActionResult Index()
     {
         return View();
@@ -28,5 +29,8 @@ public class HomeController : Controller
         string strOutput = $"Xin chào {fullName} đến từ {address}";
         ViewBag.Message = strOutput;
         return View();
+    }
+    public string a(){
+        return "aaa";
     }
 }
