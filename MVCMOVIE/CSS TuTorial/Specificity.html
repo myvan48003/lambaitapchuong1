@@ -1,0 +1,70 @@
+<html>
+<head>
+  <style>
+    p {color: red;}
+  </style>
+</head>
+<body>
+
+<p>Hello World!</p>
+
+</body>
+</html>
+<html>
+<head>
+  <style>
+    .test {color: green;}
+    p {color: red;}
+  </style>
+</head>
+<body>
+
+<p class="test">Hello World!</p>
+
+</body>
+</html>
+<html>
+<head>
+  <style>
+    #demo {color: blue;}
+    .test {color: green;}
+    p {color: red;}
+  </style>
+</head>
+<body>
+
+<p id="demo" class="test">Hello World!</p>
+
+</body>
+</html>
+<html>
+<head>
+  <style>
+    #demo {color: blue;}
+    .test {color: green;}
+    p {color: red;}
+  </style>
+</head>
+<body>
+
+<p id="demo" class="test" style="color: pink;">Hello World!</p>
+
+</body>
+</html>
+A: h1
+B: h1#content
+C: <h1 id="content" style="color: pink;">Heading</h1>
+h1 {background-color: yellow;}
+h1 {background-color: red;}
+div#a {background-color: green;}
+#a {background-color: yellow;}
+div[id=a] {background-color: blue;}
+/*From external CSS file:*/
+#content h1 {background-color: red;}
+
+/*In HTML file:*/
+<style>
+#content h1 {background-color: yellow;}
+</style>
+.intro {background-color: yellow;}
+h1 {background-color: red;}
