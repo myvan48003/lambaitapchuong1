@@ -1,8 +1,0 @@
-/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/Demomvc/obj/Debug/net8.0/Demomvc.GeneratedMSBuildEditorConfig.editorconfig
-/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/Demomvc/obj/Debug/net8.0/Demomvc.AssemblyInfoInputs.cache
-/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/Demomvc/obj/Debug/net8.0/Demomvc.AssemblyInfo.cs
-/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/Demomvc/obj/Debug/net8.0/Demomvc.csproj.CoreCompileInputs.cache
-/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/Demomvc/obj/Debug/net8.0/Demomvc.MvcApplicationPartsAssemblyInfo.cache
-/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/Demomvc/obj/Debug/net8.0/Demomvc.RazorAssemblyInfo.cache
-/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/Demomvc/obj/Debug/net8.0/Demomvc.RazorAssemblyInfo.cs
-/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/Demomvc/obj/Debug/net8.0/Demomvc.sourcelink.json
