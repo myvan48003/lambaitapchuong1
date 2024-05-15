@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/MvcMovie/MvcMovie.csproj": {}
+    "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/MvcMovie/MVCMOVIE/MvcMovie.csproj": {}
   },
   "projects": {
-    "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/MvcMovie/MvcMovie.csproj": {
+    "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/MvcMovie/MVCMOVIE/MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/MvcMovie/MvcMovie.csproj",
+        "projectUniqueName": "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/MvcMovie/MVCMOVIE/MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/MvcMovie/MvcMovie.csproj",
+        "projectPath": "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/MvcMovie/MVCMOVIE/MvcMovie.csproj",
         "packagesPath": "/Users/myvan/.nuget/packages/",
-        "outputPath": "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/MvcMovie/obj/",
+        "outputPath": "/Users/myvan/Documents/Phattrienthayhien/lambaitapchuong1/MvcMovie/MVCMOVIE/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/myvan/.nuget/NuGet/NuGet.Config"
@@ -46,21 +46,21 @@
             },
             "Microsoft.EntityFrameworkCore.SQLite": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
