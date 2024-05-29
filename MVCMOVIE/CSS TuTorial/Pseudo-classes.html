@@ -1,0 +1,60 @@
+selector:pseudo-class {
+    property: value;
+  }
+  /* unvisited link */
+  a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #00FF00;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
+  a.highlight:hover {
+    color: #ff0000;
+  }
+  div:hover {
+    background-color: blue;
+  }
+  p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  div:hover p {
+    display: block;
+  }
+  p:first-child {
+    color: blue;
+  }
+  p i:first-child {
+    color: blue;
+  }
+  p:first-child i {
+    color: blue;
+  }
+  <html>
+<head>
+<style>
+q:lang(no) {
+  quotes: "~" "~";
+}
+</style>
+</head>
+<body>
+
+<p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+
+</body>
+</html>
