@@ -1,44 +1,45 @@
-@model IEnumerable<DemoMvc.Models.Daily>
+@model IPagedList<DemoMvc.Models.Daily>
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>LUXURY COMPANY</h1>
+<h1>Nha cua Van</h1>
 
 <div class="w3-row">
     <div>
         <a asp-action="Create" class="w3-border w3-border-blue w3-btn w3-right">NEW VERSION</a>
     </div>
     <div class="w3-col l2">
-        <form  asp-action="Index">
+        <form asp-action="Index">
             <input type="text" name="KeySearch" class="w3-input w3-border w3-border-green"/>
-            <input type="submit" value="SEARCH " class="w3-btn w3-border w3-round"/>
+            <input type="submit" value="SEARCH" class="w3-btn w3-border w3-round"/>
         </form>
     </div>
 </div>
-
 
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.MaDaiLy)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().MaDaiLy)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TenDaiLy)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().TenDaiLy)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DiaChi)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().DiaChi)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NguoiDaiDien)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().NguoiDaiDien)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DienThoai)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().DienThoai)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.MaHTPP)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().MaHTPP)
             </th>
             <th></th>
         </tr>
@@ -73,3 +74,25 @@
 }
     </tbody>
 </table>
+
+@using (Html.BeginForm("Index", "Person", FormMethod.Get, new { id = "form1" }))
+{
+    <div class="row">
+        <div class="col-md-11">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page, pageSize = ViewBag.psize }),
+                new PagedListRenderOptions { LiElementClasses = new string[] { "page-item" }, PageClasses = new string[] { "page-link" } })
+        </div>
+        <div class="col-md-1">
+            @Html.DropDownList("pageSize", (IEnumerable<SelectListItem>)ViewBag.PageSize, new { @class = "form-select" })
+        </div>
+    </div>
+}
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#pageSize").change(function () {
+            $("#form1").submit();
+        });
+    });
+</script>
